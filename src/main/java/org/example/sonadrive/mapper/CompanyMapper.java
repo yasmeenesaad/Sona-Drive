@@ -11,5 +11,7 @@ public interface CompanyMapper {
     CompanyMapper INSTANCE = Mappers.getMapper(CompanyMapper.class);
 
     CompanyDto toDto(Company company);
+
+    Company toEntity(CompanyDto companyDto);
 }
 

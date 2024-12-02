@@ -9,5 +9,7 @@ import org.mapstruct.factory.Mappers;
 @Mapper(componentModel = "spring")
 public interface CountryMapper {
     CountryDto toDto(Country country);
+
+    Country toEntity(CountryDto countryDto);
 }
 
