@@ -18,7 +18,7 @@
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/sonadrive.git
+   git clone https://github.com/yasmeenesaad/Sona-Drive
    ```
 2. **Navigate to the project directory**:
 
